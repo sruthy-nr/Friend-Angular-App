@@ -11,11 +11,9 @@ friendName=""
 friendNickName=""
 DescribeYourFriend=""
 
-readValue=()=>
+readValues=()=>
 {
-  console.log(this.name)
-  console.log(this.friendName)
-  console.log(this.friendNickName)
-  console.log(this.DescribeYourFriend)
+  let data:any={"name":this.name,"friendName":this.friendName,"friendNickName":this.friendNickName,"DescribeYourFriend":this.DescribeYourFriend}
+  console.log(data)
 }
 }
