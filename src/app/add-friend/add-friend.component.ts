@@ -10,4 +10,12 @@ name=""
 friendName=""
 friendNickName=""
 DescribeYourFriend=""
+
+readValue=()=>
+{
+  console.log(this.name)
+  console.log(this.friendName)
+  console.log(this.friendNickName)
+  console.log(this.DescribeYourFriend)
+}
 }
